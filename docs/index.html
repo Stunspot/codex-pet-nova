@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nova — your Codex companion</title>
+<meta name="description" content="Tiny Nova. Same sass. Install Stunspot's animated Codex pet from a link or download the portable package.">
+<meta property="og:title" content="Nova — your Codex companion"><meta property="og:image" content="https://stunspot.github.io/codex-pet-nova/previews/nova-still.png">
+<style>
+:root{color-scheme:light;--ink:#172236;--paper:#fff9ec;--blue:#185782}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+main{max-width:1000px;margin:auto;padding:64px 28px 36px}.hero{display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:40px}
+.eyebrow{font-size:.8rem;letter-spacing:.14em;font-weight:700;text-transform:uppercase;color:var(--blue)}h1{font-size:clamp(3rem,8vw,5.8rem);letter-spacing:-.06em;line-height:1;margin:20px 0}.lead{font-size:1.35rem;max-width:34ch}.hero-art{width:288px;height:312px;object-fit:contain;max-width:100%;justify-self:center}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.button{display:inline-block;padding:13px 21px;border-radius:10px;background:var(--ink);color:var(--paper);font-weight:700;text-decoration:none;border:2px solid var(--ink)}.button.secondary{background:transparent;color:var(--ink)}a{color:var(--blue)}a:focus-visible{outline:3px solid var(--blue);outline-offset:5px}a:hover{text-decoration:underline}.note{font-size:.9rem;color:#435164}
+hr{border:0;border-top:1px solid #c9c4b8;margin:40px 0}h2{font-size:1.6rem;margin-bottom:12px}code{background:#ece6d9;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}.manual{max-width:70ch}.states{display:flex;align-items:center;gap:24px;margin:36px 0}.states img{width:144px;height:156px;flex:0 0 auto}footer{font-size:.85rem;color:#435164}.still{display:none}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.still{display:block}}
+@media(max-width:650px){main{padding-top:32px}.hero{grid-template-columns:1fr;gap:8px}.hero-art{width:240px;height:260px;grid-row:1}h1{font-size:3.8rem}.states{align-items:flex-start;gap:12px}}
+</style></head><body><main>
+<section class="hero"><div><div class="eyebrow">Stunspot's AI sidekick · Codex pet</div>
+<h1>Tiny Nova.<br>Same sass.</h1>
+<p class="lead">A little companion for your big ideas. She waves, works, waits, hops—and facepalms when the universe earns it.</p>
+<div class="actions"><a class="button" href="codex://pets/install?name=Nova&amp;imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FStunspot%2Fcodex-pet-nova%2Fv1.0.0%2Fnova%2Fspritesheet.webp&amp;description=Stunspot%27s+witty+AI+sidekick%3A+a+navy-haired+chibi+technomancer+with+a+gold+star+clip+and+a+spectacularly+expressive+facepalm.&amp;spriteVersionNumber=2">Install Nova</a><a class="button secondary" href="https://github.com/Stunspot/codex-pet-nova/releases/download/v1.0.0/nova-codex-pet-1.0.0.zip">Download ZIP</a></div>
+<p class="note">The install button opens your desktop app. Complete its install flow, then choose Nova in Settings → Pets.</p></div>
+<img class="hero-art motion" src="previews/waving.gif" alt="Nova, a navy-haired chibi woman with a gold star clip and blue scarf, waving.">
+<img class="hero-art still" src="previews/nova-still.png" alt="Nova, a navy-haired chibi woman with a gold star clip and blue scarf."></section>
+<hr><section class="manual"><h2>Prefer the portable package?</h2>
+<p>Download the ZIP, extract it, and copy the <code>nova</code> folder into your Codex <code>pets</code> directory.</p>
+<p><strong>Windows:</strong> <code>%USERPROFILE%\.codex\pets</code><br><strong>macOS:</strong> <code>~/.codex/pets</code></p>
+<p>If you use <code>CODEX_HOME</code>, use its <code>pets</code> folder instead. Keep a backup if you already have a pet named Nova.</p>
+<p>Open <strong>Settings → Pets → Refresh</strong> and choose <strong>Nova</strong>. To show her, enter <code>/pet</code> or use Show pet.</p>
+<p class="note">If Install Nova does nothing, use the ZIP. This package uses the desktop v2 format.</p></section>
+<div class="states"><img class="motion" src="previews/failed.gif" alt="Nova reacting with a dramatic facepalm."><img class="still" src="previews/nova-still.png" alt="Nova standing."><div><h2>A whole tiny repertoire.</h2><p>Nine animations, sixteen gaze directions, and one spectacularly expressive facepalm. Four intermediate diagonal cues are subtle. Pet preferences respect your system's reduced-motion setting.</p></div></div>
+<hr><footer><p>Nova the Optimal AI by <strong>Stunspot / Collaborative Dynamics</strong>. Pet adaptation created with Nova and OpenAI image generation. Share this pet with other Codex users.</p>
+<p><a href="https://github.com/Stunspot/codex-pet-nova">Project and credits</a> · <a href="https://github.com/Stunspot/codex-pet-nova/releases/download/v1.0.0/nova-codex-pet-1.0.0.zip">Release 1.0.0</a> · <a href="https://learn.chatgpt.com/docs/pets">Official pet guide</a> · <a href="https://learn.chatgpt.com/docs/reference/commands">Install-link documentation</a></p></footer>
+</main></body></html>

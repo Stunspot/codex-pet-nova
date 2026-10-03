@@ -1,0 +1,6 @@
+build/
+__pycache__/
+*.pyc
+nova-codex-pet-contact-sheet-v0.1.png
+pets brief.md
+adaptation-brief.md
