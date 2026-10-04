@@ -2,7 +2,7 @@
 
 **Tiny Nova. Same sass.** An animated Codex companion by Stunspot / Collaborative Dynamics.
 
-![Nova waves](docs/previews/waving.gif)
+[![Tiny Nova. Same sass. Your Codex companion by Stunspot, free to adopt.](docs/images/nova-share-card-v1.jpg)](https://stunspot.github.io/codex-pet-nova/)
 
 ## Get Nova
 
@@ -19,6 +19,8 @@ With a custom CODEX_HOME, use its pets/nova directory instead. Keep a backup if 
 The ZIP includes a full install guide and SHA-256 checksums.
 
 ## About the pet
+
+![Nova waves](docs/previews/waving.gif)
 
 Navy ponytail, gold star clip, blue scarf, tech suit, blue eyes, and a well-developed facepalm. Nine animations, sixteen clockwise gaze directions, and a neutral still.
 
